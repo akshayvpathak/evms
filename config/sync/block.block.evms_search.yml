@@ -1,0 +1,23 @@
+uuid: eab58b1d-aba5-472d-a660-bcbac999c731
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - evms
+_core:
+  default_config_hash: Q-4EcGAsu26ICu4ejEz0uE1zv4akpiaOsizxgZfAmEw
+id: evms_search
+theme: evms
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: node_search
+visibility: {  }
