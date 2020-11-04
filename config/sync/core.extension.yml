@@ -62,7 +62,6 @@ module:
   path_alias: 0
   physical: 0
   profile: 0
-  quickedit: 0
   rdf: 0
   responsive_image: 0
   rest: 0

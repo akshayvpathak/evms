@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Celias;
+  src: url(fonts/Celias.woff2);
+}
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
@@ -12,6 +16,8 @@ $theme-colors: (
   "lightgray": $lightgray,
   "gray-80": $gray-80,
 );
+$font-family-sans-serif: Celias,-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-base: $font-family-sans-serif;
 $input-focus-border-color: $darkgray;
 $input-border-color: $gray-80;
 $input-focus-box-shadow: inset 0 1px 1px rgba($black, .075);

@@ -254,3 +254,7 @@ function evms_preprocess_page(&$variables) {
   $variables['sidebar_second_attributes'] = new Attribute($variables['sidebar_second_attributes']);
   $variables['container'] = 'container';
 }
+/*Product Carousel*/
+function evms_preprocess_paragraph__product_carousel(&$variables){
+  $variables['attributes']['class'][] = 'product-carousel';
+}
