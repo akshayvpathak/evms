@@ -5,7 +5,7 @@ dependencies:
   config:
     - commerce_product.commerce_product_variation_type.grocery_variation
     - field.storage.commerce_product_variation.field_image
-    - media.type.image
+    - media.type.product_image_media
 id: commerce_product_variation.grocery_variation.field_image
 field_name: field_image
 entity_type: commerce_product_variation
@@ -20,9 +20,9 @@ settings:
   handler: 'default:media'
   handler_settings:
     target_bundles:
-      image: image
+      product_image_media: product_image_media
     sort:
       field: _none
     auto_create: false
-    auto_create_bundle: ''
+    auto_create_bundle: image
 field_type: entity_reference
